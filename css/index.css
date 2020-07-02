@@ -1,0 +1,111 @@
+    
+<style>
+    .border {
+		border-color: #7f0;
+		border-width:10px;
+		border-style:solid;
+		border-radius:20px
+		}
+
+  	button	{
+  	 	border-radius: 5px;
+    		color: white;
+    		background-color: #4791d0;
+    		padding: 1px 5px 1px 5px;
+		}
+
+  	button:hover 
+		{
+     		animation-name: background-color;
+    		animation-duration: 500ms;
+    		animation-fill-mode:forwards;
+  		}
+  	@keyframes background-color 
+		{
+			100% 
+			{
+     			 background-color: red;
+    			}
+  		}
+
+	.text	{
+		color:brown;
+		}
+	.green	{
+		color:green;
+		}
+
+	.margin	{
+		margin-top:80px;
+		}
+
+	#right	{
+		float:right;
+		width: 40%;
+		}
+	#left	{
+		float: left;
+		width: 40%;
+		}
+
+	h2	{
+		text-indent: 10px;
+    		padding-top: 10px;
+    		color: #D70000;
+   		font-family: Berkshire Swash;
+		text-align:center;
+    		}
+
+	
+	h3 	{
+    		text-indent: 5px;
+    		padding-top: 5px;
+    		color:#700;
+    		font-family: Berkshire Swash;
+		text-align:center;
+		}
+
+	#div 	{
+    		background: repeating-linear-gradient(90deg, #07f 0px, #0ff 0px,#0f7 0px,#f70 0px);
+		margin-top:5px;
+		margin-right:5px;
+		margin-bottom:5px;
+		margin-left:5px;
+		}
+ 	header 	{
+    		color: #000;
+		}
+	nav 	{
+    		background-color: hsl(80, 100%, 75%);
+  		}	
+	footer	{
+		background-color: hsl(80, 100%, 75%);
+		color:black;
+		text-align:center;
+		}
+
+  	h1 	{
+    		text-indent: 10px;
+    		padding-top: 10px;
+    		color:7f0;
+    		font-family: Berkshire Swash;
+		text-align:center;
+		background-color: hsl(80, 100%, 75%);
+		padding:10px;
+		}
+
+    	nav ul 	{
+    		margin: 0px;
+    		padding: 5px 0px 5px 30px;
+  		}
+
+  	nav li 	{
+    		display: inline;
+    		margin: 100px;
+  		}
+
+  	a 	{
+    		text-decoration: none;
+    		color: inherit;
+          }
+</style>
